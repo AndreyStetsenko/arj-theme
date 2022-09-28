@@ -316,12 +316,12 @@
             <div class="row justify-content-center text-center">
                 <div class="col-xl-8 col-lg-10">
                     <ul class="contact-list contact-list-s1 flex-wrap flex-md-nowrap pdb-l">
-                        <li class="animated" data-animate="fadeInUp" data-delay=".3">
+                        <!-- <li class="animated" data-animate="fadeInUp" data-delay=".3">
                             <em class="contact-icon fas fa-phone"></em>
                             <div class="contact-text">
                                 <span>+41446880711</span>
                             </div>
-                        </li>
+                        </li> -->
                         <li class="animated" data-animate="fadeInUp" data-delay=".4">
                             <em class="contact-icon fas fa-envelope"></em>
                             <div class="contact-text">
