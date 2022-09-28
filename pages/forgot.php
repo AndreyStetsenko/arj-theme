@@ -5,7 +5,7 @@
         <div class="ath-header text-center">
             <h4>
 				<a href="/" class="ath-logo text-white">
-					ARJ Fund
+                    <img src="<?= route('static/images/logo.svg') ?>" alt="ARJ Fund">
 				</a>
 			</h4>
         </div>
