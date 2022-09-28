@@ -132,7 +132,7 @@
                                                     <td><?php echo format_currency($item['summa'], $val); ?></td>
                                                     <td><?php echo format_date($item['date']); ?></td>
                                                     <td>
-                                                        <svg width="57" height="20" role="img"> <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#bm_icon_payment_colored_<?php echo strtolower(escape($item['system'])); ?>"></use> </svg>
+                                                        <?php echo strtolower(escape($item['system'])); ?>
                                                     </td>
                                                     <td><?php echo escape($item['wallet']); ?></td>
                                                     <td><?php echo $item['status'] ? T('Успешно') : T('Ожидает'); ?></td>
@@ -193,6 +193,18 @@
     $('.alert').each(function() {
 		var text = $(this).text(); // берем текст текущего элемента
 		text = text.replace(/Максимальная сумма для выплаты на BinanceCoin: 100 000.00 USD/g, "Максимальная сумма для выплаты на ARJ: 100 000.00 USD"); // заменяем необходимое
+		$(this).text(text); // выставляем новый текст в элемент
+	});
+
+    $('td').each(function() {
+		var text = $(this).text(); // берем текст текущего элемента
+		text = text.replace(/binancecoin/g, "ARJ"); // заменяем необходимое
+		$(this).text(text); // выставляем новый текст в элемент
+	});
+
+    $('td').each(function() {
+		var text = $(this).text(); // берем текст текущего элемента
+		text = text.replace(/tron_trc20/g, "USDT TRC20"); // заменяем необходимое
 		$(this).text(text); // выставляем новый текст в элемент
 	});
 
