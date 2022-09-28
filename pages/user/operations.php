@@ -70,3 +70,17 @@
 </div>
 
 <?php require_once(THEME_ROOT."/blocks/dashboard/footer.php"); ?>
+
+<script>
+	$('td').each(function() {
+		var text = $(this).text(); // берем текст текущего элемента
+		text = text.replace(/TRON_TRC20/g, "USDT TRC20"); // заменяем необходимое
+		$(this).text(text); // выставляем новый текст в элемент
+	});
+
+	$('td').each(function() {
+		var text = $(this).text(); // берем текст текущего элемента
+		text = text.replace(/BinanceCoin/g, "ARJ"); // заменяем необходимое
+		$(this).text(text); // выставляем новый текст в элемент
+	});
+</script>
