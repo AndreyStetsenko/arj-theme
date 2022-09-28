@@ -1,0 +1,96 @@
+.modal-invest .modal-header {
+    padding-top: 25px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+.modal-invest .modal-header .close {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    font-size: 25px;
+    color: #fff;
+    opacity: 1;
+}
+
+.modal-invest .modal-header .modal-title {
+    text-align: center;
+    color: #fff;
+    font-size: 21px;
+}
+
+.modal-invest .modal-content {
+    border-radius: 16px;
+    background: #1a233a;
+}
+
+.modal-invest .card {
+    max-width: 300px;
+    margin: 0 auto;
+    background: #1a233a;
+    border: none;
+}
+
+.modal-invest .card .qr {
+    width: 100%;
+    margin-bottom: 45px;
+    padding: 25px;
+    border-radius: 16px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-invest .card .qr img {
+    width: 250px;
+    height: 250px;
+}
+
+.modal-invest .card .badge-successq {
+    margin-top: 15px;
+    padding: 12px;
+    font-size: 16px;
+}
+
+.modal-invest .card .form-control {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 3px;
+    border-radius: 0;
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    background: transparent;
+    font-size: 14px;
+    color: #fff;
+}
+
+.modal-invest .card .form-control::placeholder {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.modal-invest .card .form-group label {
+    margin-bottom: 3px;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+@media (max-width: 992px) {
+    .modal-invest {
+        min-height: calc(100% - 7px);
+        display: flex;
+        align-items: flex-end;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .modal-invest .modal-content {
+        border-radius: 16px 16px 0 0;
+        background: #1a233a;
+    }
+}

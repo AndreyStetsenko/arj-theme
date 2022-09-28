@@ -1,0 +1,12 @@
+{
+    "menu": [
+        {
+            "url": "/user/",
+            "title": "Link 1"
+        },
+        {
+            "url": "https://google.com",
+            "title": "Link 2"
+        }
+    ]
+}
