@@ -173,46 +173,41 @@
                             <div class="pieID pie"></div>
                             
                             <ul class="pieID legend">
-                            <li>
-                                <div class="spee"></div>
-                                <span>18</span>
-                                <em>% Закрытая продажа</em>
-                            </li>
-                            <li>
-                                <div class="spee"></div>
-                                <span>51</span>
-                                <em>% Открытая продажа</em>
-                            </li>
-                            <li>
-                                <div class="spee"></div>
-                                <span>5</span>
-                                <em>% Партнеры и советники</em>
-                            </li>
-                            <li>
-                                <div class="spee"></div>
-                                <span>7</span> 
-                                <em>% Команда</em>
-                            </li>
-                            <li>
-                                <div class="spee"></div>
-                                <span>2</span>
-                                <em>% Промо</em>
-                            </li>
-                            <li>
-                                <div class="spee"></div>
-                                <span>5</span>
-                                <em>% Резервный фонд</em>
-                            </li>
-                            <li>
-                                <div class="spee"></div>
-                                <span>12</span>
-                                <em>% Закрытая продажа</em>
-                            </li>
-                            <li>
-                                <div class="spee"></div>
-                                <span>5.5</span>
-                                <em>% Aliens</em>
-                            </li>
+                                <li>
+                                    <div class="spee"></div>
+                                    <span>18</span>
+                                    <em>% Закрытая продажа / 1 этап</em>
+                                </li>
+                                <li>
+                                    <div class="spee"></div>
+                                    <span>51</span>
+                                    <em>% Открытая продажа</em>
+                                </li>
+                                <li>
+                                    <div class="spee"></div>
+                                    <span>5</span>
+                                    <em>% Партнеры и советники</em>
+                                </li>
+                                <li>
+                                    <div class="spee"></div>
+                                    <span>7</span> 
+                                    <em>% Команда</em>
+                                </li>
+                                <li>
+                                    <div class="spee"></div>
+                                    <span>2</span>
+                                    <em>% Промо</em>
+                                </li>
+                                <li>
+                                    <div class="spee"></div>
+                                    <span>5</span>
+                                    <em>% Резервный фонд</em>
+                                </li>
+                                <li>
+                                    <div class="spee"></div>
+                                    <span>12</span>
+                                    <em>% Закрытая продажа / 2 этап</em>
+                                </li>
                             </ul>
                         </section>
                     </div>
@@ -449,7 +444,7 @@
 }
 
 .legend {
-  width: 560px;
+  width: 620px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
