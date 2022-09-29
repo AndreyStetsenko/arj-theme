@@ -175,53 +175,43 @@
                             <ul class="pieID legend">
                             <li>
                                 <div class="spee"></div>
-                                <span>26</span>
-                                <em>% Humans</em>
+                                <span>18</span>
+                                <em>% Закрытая продажа</em>
                             </li>
                             <li>
                                 <div class="spee"></div>
-                                <span>20</span>
-                                <em>% Dogs</em>
+                                <span>51</span>
+                                <em>% Открытая продажа</em>
                             </li>
                             <li>
                                 <div class="spee"></div>
-                                <span>12.5</span>
-                                <em>% Cats</em>
+                                <span>5</span>
+                                <em>% Партнеры и советники</em>
                             </li>
                             <li>
                                 <div class="spee"></div>
-                                <span>10</span> 
-                                <em>% Slugs</em>
+                                <span>7</span> 
+                                <em>% Команда</em>
                             </li>
                             <li>
                                 <div class="spee"></div>
-                                <span>7</span>
-                                <em>% Aliens</em>
+                                <span>2</span>
+                                <em>% Промо</em>
                             </li>
                             <li>
                                 <div class="spee"></div>
-                                <span>7</span>
-                                <em>% Aliens</em>
+                                <span>5</span>
+                                <em>% Резервный фонд</em>
                             </li>
                             <li>
                                 <div class="spee"></div>
-                                <span>7</span>
-                                <em>% Aliens</em>
+                                <span>12</span>
+                                <em>% Закрытая продажа</em>
                             </li>
                             <li>
                                 <div class="spee"></div>
                                 <span>5.5</span>
                                 <em>% Aliens</em>
-                            </li>
-                            <li>
-                                <div class="spee"></div>
-                                <span>3</span>
-                                <em>% Aliens</em>
-                            </li>
-                            <li>
-                                <div class="spee"></div>
-                                <span>2</span>
-                                <em>Aliens</em>
                             </li>
                             </ul>
                         </section>
@@ -403,12 +393,6 @@
   align-items: center;
 }
 
-@media screen and (max-width: 620px) {
-    .pie-wrap {
-        flex-direction: column;
-    }
-}
-
 .pieID {
   display: inline-block;
   vertical-align: top;
@@ -465,7 +449,7 @@
 }
 
 .legend {
-  width: 400px;
+  width: 560px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -503,6 +487,21 @@
     width: 12px;
     height: 12px;
     margin-right: 10px;
+}
+
+@media screen and (max-width: 620px) {
+    .pie-wrap {
+        flex-direction: column;
+    }
+
+    .legend {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .legend li {
+        width: 100%;
+    }
 }
 </style>
 
