@@ -359,7 +359,7 @@
                         <li class="animated" data-animate="fadeInUp" data-delay=".4">
                             <em class="contact-icon fas fa-envelope"></em>
                             <div class="contact-text">
-                                <span>arjfund@gmail.com</span>
+                                <span style="cursor: pointer" onclick="location.href='mailto:arjfund@gmail.com'">arjfund@gmail.com</span>
                             </div>
                         </li>
                         <li class="animated" data-animate="fadeInUp" data-delay=".5">
