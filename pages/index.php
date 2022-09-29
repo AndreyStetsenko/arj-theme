@@ -29,7 +29,7 @@
                                 <div class="cpn-btns">
                                     <ul class="btn-grp animated" data-animate="fadeInUp" data-delay="1.45">
                                         <li><a href="/user/deposit/" class="btn btn-md btn-grad btn-grad-alternet btn-round">Стать инвестором</a></li>
-                                        <li><a href="<?= route('static/images/ARJ.pdf') ?>" target="_blank" class="btn btn-md btn-grad btn-grad-alternet btn-round">Скачать презентацию</a></li>
+                                        <!-- <li><a href="<?= route('static/images/ARJ.pdf') ?>" target="_blank" class="btn btn-md btn-grad btn-grad-alternet btn-round">Скачать презентацию</a></li> -->
                                     </ul>
                                 </div>
                                 <div class="cpn-social d-none">
