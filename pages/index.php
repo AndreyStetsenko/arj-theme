@@ -175,38 +175,38 @@
                             <ul class="pieID legend">
                                 <li>
                                     <div class="spee"></div>
-                                    <span>18</span>
-                                    <em>% Закрытая продажа / 1 этап</em>
+                                    <span class="num">18</span>
+                                    <span class="title">% Закрытая продажа / 1 этап</span>
                                 </li>
                                 <li>
                                     <div class="spee"></div>
-                                    <span>51</span>
-                                    <em>% Открытая продажа</em>
+                                    <span class="num">51</span>
+                                    <span class="title">% Открытая продажа</span>
                                 </li>
                                 <li>
                                     <div class="spee"></div>
-                                    <span>5</span>
-                                    <em>% Партнеры и советники</em>
+                                    <span class="num">5</span>
+                                    <span class="title">% Партнеры и советники</span>
                                 </li>
                                 <li>
                                     <div class="spee"></div>
-                                    <span>7</span> 
-                                    <em>% Команда</em>
+                                    <span class="num">7</span> 
+                                    <span class="title">% Команда</span>
                                 </li>
                                 <li>
                                     <div class="spee"></div>
-                                    <span>2</span>
-                                    <em>% Промо</em>
+                                    <span class="num">2</span>
+                                    <span class="title">% Промо</span>
                                 </li>
                                 <li>
                                     <div class="spee"></div>
-                                    <span>5</span>
-                                    <em>% Резервный фонд</em>
+                                    <span class="num">5</span>
+                                    <span class="title">% Резервный фонд</span>
                                 </li>
                                 <li>
                                     <div class="spee"></div>
-                                    <span>12</span>
-                                    <em>% Закрытая продажа / 2 этап</em>
+                                    <span class="num">12</span>
+                                    <span class="title">% Закрытая продажа / 2 этап</span>
                                 </li>
                             </ul>
                         </section>
@@ -467,13 +467,13 @@
   flex-direction: row;
   align-items: center;
 }
-.legend li em {
+.legend li .title {
   font-style: normal;
   color: #fff;
   margin-left: 2px;
   font-size: 16px;
 }
-.legend li span {
+.legend li .num {
   color: #fff;
   font-size: 16px;
   font-weight: 600;
@@ -528,7 +528,7 @@ function iterateSlices(sliceSize, pieElement, offset, dataCount, sliceCount, col
 }
 function createPie(dataElement, pieElement) {
   var listData = [];
-  $(dataElement+" span").each(function() {
+  $(dataElement+" .num").each(function() {
     listData.push(Number($(this).html()));
   });
   var listTotal = 0;
